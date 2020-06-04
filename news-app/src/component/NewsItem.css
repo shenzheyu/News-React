@@ -1,0 +1,106 @@
+#image {
+    border-style: solid;
+    border-width: thin;
+    border-color: #E0E0E0;
+    border-radius: 0.1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    padding: 0.2rem;
+}
+
+#row {
+    box-shadow: 0 0 0.5rem #989898;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+}
+
+#row:hover {
+    cursor: pointer;
+}
+
+#card {
+    margin-top: 1rem;
+    margin-bottom: 2.8rem;
+}
+
+#title {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.15rem;
+    margin-top: 1rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+#description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    font-size: 0.9rem;
+}
+
+#date {
+    margin-left: 1.25rem;
+    font-style: italic;
+    font-size: 0.93rem;
+    padding-bottom: 2rem;
+}
+
+#section {
+    position: absolute;
+    right: 0rem;
+    margin-right: 1.5rem;
+    border-radius: 0.3rem;
+}
+
+#modal_title {
+    font-size: 1.1rem;
+}
+
+@media (min-width: 768px) {
+    #modal {
+        width: 28.5rem;
+    }
+
+    #modal_body {
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    #modal_facebook {
+        margin-left: 2rem;
+    }
+
+    #modal_twitter {
+        margin-left: 6.2rem;
+    }
+
+    #modal_email {
+        margin-left: 6rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #modal_body {
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    #modal_facebook {
+        margin-left: 2rem;
+    }
+
+    #modal_twitter {
+        margin-left: 6.2rem;
+    }
+
+    #modal_email {
+        margin-left: 6rem;
+    }
+}

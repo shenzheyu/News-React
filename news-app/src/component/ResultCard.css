@@ -1,0 +1,30 @@
+#result_card_title {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+#result_image {
+    border-style: solid;
+    border-width: thin;
+    border-color: #E0E0E0;
+    border-radius: 0.1rem;
+    margin-bottom: 0.5rem;
+    padding: 0.2rem;
+}
+
+#result_date {
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+#result_section {
+    position: absolute;
+    right: 1.5rem;
+}
+
+#result_card {
+    box-shadow: 0 0 0.5rem #989898;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    margin-bottom: 2rem;
+}

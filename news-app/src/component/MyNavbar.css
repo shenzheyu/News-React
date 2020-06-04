@@ -1,0 +1,20 @@
+.navbar {
+    background-image: linear-gradient(to right, #132341, #3C62B4);
+    font-size: 87%;
+}
+
+.navbar-dark .navbar-text .text {
+    color: #FFFFFF;
+}
+
+#nytimes {
+    font-size: 1.1rem;
+    margin-right: 1.3rem;
+    margin-left: 1rem;
+}
+
+#guardian {
+    font-size: 1.1rem;
+    margin-right: 0.7rem;
+    margin-left: 0.5rem;
+}
